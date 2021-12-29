@@ -18,6 +18,7 @@ export default {
   props: {
     contact: {
       type: Object,
+      required:true
     },
     messages: {
       type: Array,
@@ -39,7 +40,7 @@ export default {
       messages(messages){
            this.scrollToBottom();
       }
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>

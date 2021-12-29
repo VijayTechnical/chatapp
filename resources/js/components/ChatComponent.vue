@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      selectedContact: 0,
+      selectedContact: {},
       messages: [],
       contacts: [],
     };
